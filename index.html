@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="project19.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>JS-Quiz</h3>
+        <h4 class="left">Total Questions:<span id="count"></span></h4>
+      </div>
+      <div class="main" id="main">
+            <p id="q1"> </p>
+            <ul class="options" id="options">
+              <li>
+                <label
+                ><input type="radio"  name="question1" value="A" /><span id="input1"
+                  ></span
+                ></label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="radio"  name="question1" value="b" /><span id="input2"
+                  ></span
+                ></label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="radio"  name="question1" value="c" /><span id="input3"
+                  ></span
+                ></label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="radio"  name="question1" value="d" /><span id="input4"
+                  ></span
+                ></label
+              >
+            </li>
+              </li>
+            </ul>
+          
+        
+      </div>
+      <div class="btnbox" id="btnbox">
+        <button class="btn" id="previous" onclick="previous()">Previous</button>
+        <button class="btn" id="next" onclick="next()">Next</button>
+        <div id="alert"></div>
+        <div id="myscore" class="score"></div>
+      </div>
+
+    </div>
+    <script src="project19.js"></script>
+  </body>
+</html>
